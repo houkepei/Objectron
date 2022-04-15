@@ -4,6 +4,7 @@ import numpy as np
 from numpy.linalg import lstsq as optimizer
 from scipy.spatial.transform import Rotation as rotation_util
 
+
 EDGES = (
     [1, 5], [2, 6], [3, 7], [4, 8],  # lines along x-axis
     [1, 3], [5, 7], [2, 4], [6, 8],  # lines along y-axis
